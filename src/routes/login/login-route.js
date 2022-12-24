@@ -38,12 +38,13 @@ function Login() {
           <input type='password' value={pwd} onChange={onChangePwd}/>
           <br />
           <button type="submit">로그인</button>
+          <br />
+        <div className="signup">
+          <a href="/signup">
+            <span>회원가입</span>
+          </a>
+        </div>
       </form>
-      <div className="signup">
-        <a href="/signup">
-          <span>회원가입</span>
-        </a>
-      </div>
   </div>
   );
 };

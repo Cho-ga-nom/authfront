@@ -11,7 +11,6 @@ const FIND_PWD = "FIND_PWD"; //비밀번호 찾기
 const USER_INFO = "USER_INFO"; //유저정보 계속 유지하기
 
 const logIn = createAction(LOG_IN, (user) => ({ user }));
-const logOut = createAction(LOG_OUT, (user) => ({ user }));
 const loginCheck = createAction(LOGIN_CHECK, (cookie) => ({ cookie }));
 const validateEmail = createAction(VALIDATE_EMAIL, (user) => ({ user })); //이메일 인증
 const findPwd = createAction(FIND_PWD, (email) => ({ email }));
